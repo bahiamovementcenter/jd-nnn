@@ -205,3 +205,12 @@ out again with `git diff`.
   and `jd scaffold` and `jd check` with an Org JDex (`test.nu`).
 
 `nix fmt` formats the Nix files.
+
+## Licence
+
+Copyright © 2026 Ash. Licensed under the
+[GNU Affero General Public License v3.0 only](LICENSE) (`AGPL-3.0-only`).
+
+Copies published before this change stay available under the Mozilla Public License 2.0 they had then.
+
+`pkgs/jd/jdex-store.patch` changes the upstream `jd` CLI and stays under its MIT licence, so it can be offered upstream. `pkgs/jd/jd.nix` packages `jd` itself, which is MIT.
